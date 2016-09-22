@@ -1,0 +1,44 @@
+Host mgmt
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile D:/UserData/Ian/DOCUME~1/MOBAXT~1/home/projects/ubuntu1/.vagrant/machines/mgmt/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host lb
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile D:/UserData/Ian/DOCUME~1/MOBAXT~1/home/projects/ubuntu1/.vagrant/machines/lb/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host web1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile D:/UserData/Ian/DOCUME~1/MOBAXT~1/home/projects/ubuntu1/.vagrant/machines/web1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host web2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2202
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile D:/UserData/Ian/DOCUME~1/MOBAXT~1/home/projects/ubuntu1/.vagrant/machines/web2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
